@@ -145,10 +145,14 @@ a {
 .carousel .carousel_actions button {
   border-radius: 50px;
   border: 0;
-  font_weight: bold;
+  /* font_weight: bold; */
   cursor: pointer;
   width: 40px;
   height: 40px;
+}
+
+button:hover {
+  background-color: orange;
 }
 
 .carousel .carousel_actions button#carousel_button--prev {
@@ -168,3 +172,4 @@ a {
     transform: opacity linear;
   }
 }
+
