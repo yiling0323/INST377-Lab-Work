@@ -9,19 +9,33 @@ body {
   padding: 0;
   font-family: ‘Segoe UI’, Candara, ‘Bitstream Vera Sans’, ‘DejaVu Sans’,
     ‘Bitsream Vera Sans’, ‘Trebuchet MS’, Verdana, ‘Verdana Ref’, sans-serif;
-  background-color: darkslategray;
+  background-color: lightblue; /* darkslategray; */
 }
 
 /* Page Layout */
 .columns {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }
 
 .wrapper {
   display: flex;
+  height: 625px;
 }
 .container {
   max-width: 960px;
   margin-top: 25px;
+}
+
+.block {
+  background-color: lightgoldenrodyellow;
+  height: 70px;
+  font-size: 40px;
+}
+
+.button {
+  background-color: green;
+  color: white;
 }
