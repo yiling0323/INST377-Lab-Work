@@ -1,0 +1,22 @@
+h1 {
+  font-size: 30px;
+}
+
+.search {
+  width: 620px;
+}
+
+.info {
+  font-weight: block;
+  display: block;
+  background: lightseagreen;
+  width: fit-content;
+  padding: 10px;
+  border-radius: 4px;
+  width: 620px;
+}
+
+#mapid {
+  height: 450px;
+  width: 600px;
+}
